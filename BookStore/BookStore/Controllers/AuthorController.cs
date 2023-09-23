@@ -33,7 +33,6 @@ namespace BookStore.Controllers
             return View(model);
         }
 
-
         public IActionResult Update(int id)
         {
             var record = service.FindById(id);
